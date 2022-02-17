@@ -1,0 +1,126 @@
+html{
+    /* FORMATAÇÃO DO HEADER - IMAGEM*/
+    background-image: url(imagens/header.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+}
+
+
+
+body{
+    margin: 0 auto;
+    /* FORMATAÇÃO DO BODY LARGURA MÁXIMA PARA CONTEÚDO 50em*/
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 2em 1em;
+    color: #555;
+}
+
+
+/* HEADER - - - - - - - - - - - */
+
+header{
+    line-height: 1.2;
+    padding: 1vw 2em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+/* FORMATAÇÃO DO LOGO */
+header img{
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+
+
+/* TITULOS E STRONG - - - - - - - - - - */
+
+/* FORMATAÇÃO DA COR DOS TÍTULOS*/
+h1, h2, strong{
+    color: #333;
+    font-weight: 700;
+}
+
+/* h1 DENTRO DO HEADER*/
+header h1{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 700;
+
+}
+
+/* h2 DENTRO DO HEADER*/
+header h2{
+    margin-top: 1em;
+    padding-top: 1em;
+
+    /* EFEITOS DE LETRA DOS h2 DENTRO DO HEADER*/
+    text-shadow: 0 0 8px #0055FF;
+    color: orange;
+}
+
+
+
+/* SECTIONS E FOOTER - - - - - - - - - - */
+
+section, footer{
+    background: "#e4f0f5";
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    border-left: 2px solid #69c;
+}
+
+/* ANIMAÇÃO DO LINK NO FOOTER */
+footer a:hover{
+    background: #e81c4f;
+    color: white;
+}
+
+
+
+
+/* ARTIGOS - - - - - - - - - - */
+article{
+    padding: 1em;
+
+    /* COR DOS ARTICLES*/
+    background: #fafafa;
+    border-bottom: 1px soli #d8dee9;
+    color: #a7adba;
+
+   /* FONT DOS ARTICLES IMPORTADA ONLINE*/
+    font-family: "Roboto Mono", monospace;
+
+}
+
+
+
+/* LINKS - - - - - - - - - - */
+a{
+    color: #e81c4f;
+    /*background-color: blue ;*/
+}
+
+/* LINK DENTRO DO FOOTER */
+footer a{
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    /*color: white; */
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    /* ANIMAÇÃO */
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+
+    /*
+    transition: background 1s; */
+
+}
